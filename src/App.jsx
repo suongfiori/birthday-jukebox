@@ -10,7 +10,7 @@ const App = () => {
     { id: "7HIwsDKeDaQ", name: "Happy Birthday Satchmo Style"},
     { id: "IhA4r9peGXE", name: "Happy Birthday Song Remix DJ"},
     { id: "QGJSOf3Z-Wk", name: "Joyeux Anniversaire"},
-    { id: "k1oqWKAp1N8", name: "Happy Birthday| Rachlevsky Chamber Orchestra Kremlin"}, 
+    { id: "k1oqWKAp1N8", name: "Happy Birthday Chamber Orchestra Kremlin"}, 
     { id: "4sZmPHJPvZE", name: "Happy Birthday - Jazzy Piano | Jonny May"},
   ];
 
@@ -51,8 +51,8 @@ const App = () => {
           frameBorder="0"
         ></iframe>
         <div className="songs" id="songList"></div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

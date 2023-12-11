@@ -19,6 +19,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem
 }
 .content-container {
   max-width: 320px;
@@ -51,6 +52,7 @@ button:hover {
 
 footer p {
   color: #61dafb;
-  padding: 3rem;
+  padding: 1rem;
   font-size: 0.8rem;
+  text-align: center;
 }
