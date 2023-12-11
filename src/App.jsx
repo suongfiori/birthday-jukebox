@@ -14,7 +14,6 @@ const App = () => {
     { id: "4sZmPHJPvZE", name: "Happy Birthday - Jazzy Piano | Jonny May"},
   ];
 
-
   const playSong = (id) => {
     const newSrc = `https://www.youtube.com/embed/${id}?autoplay=1`;
     setPlayerSrc(newSrc);
@@ -40,7 +39,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h2>🎂 Happy Birthday!</h2>
+      <h2>🎂🎂Happy Birthday!</h2>
       <div className="content-container">
         <iframe
           title="YouTube Player"
@@ -53,7 +52,6 @@ const App = () => {
         ></iframe>
         <div className="songs" id="songList"></div>
       </div>
-
       <Footer />
     </div>
   );
